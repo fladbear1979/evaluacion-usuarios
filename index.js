@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenido a la API de Evaluación de Usuarios!');
+  res.send('Welcome to the User Evaluation API!');
 });
 
 app.listen(PORT, () => {
